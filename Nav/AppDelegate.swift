@@ -13,9 +13,19 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 
     var window: UIWindow?
 
-
+    /*使用模拟器滑动返回，有时导致导航栏标题位置不对，使用真机没毛病！*/
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplicationLaunchOptionsKey: Any]?) -> Bool {
-        // Override point for customization after application launch.
+        
+        self.window = UIWindow(frame: UIScreen.main.bounds)
+        /*1，使用时，只需使用BaseNavgationController，并且需要使用的控制器继承BaseViewController即可*/
+        /*2，所有配置前往 LSQNavConfiguration 配置即可*/
+        let vc = HomeViewController()
+        let nav = BaseNavgationController(rootViewController: vc)
+        self.window?.rootViewController = nav
+        self.window?.makeKeyAndVisible()
+        
+        
+        
         return true
     }
 

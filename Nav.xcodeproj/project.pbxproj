@@ -8,20 +8,36 @@
 
 /* Begin PBXBuildFile section */
 		FBAAC98B1F90B66600E6899E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBAAC98A1F90B66600E6899E /* AppDelegate.swift */; };
-		FBAAC98D1F90B66600E6899E /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBAAC98C1F90B66600E6899E /* ViewController.swift */; };
 		FBAAC9901F90B66600E6899E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FBAAC98E1F90B66600E6899E /* Main.storyboard */; };
 		FBAAC9921F90B66600E6899E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FBAAC9911F90B66600E6899E /* Assets.xcassets */; };
 		FBAAC9951F90B66600E6899E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FBAAC9931F90B66600E6899E /* LaunchScreen.storyboard */; };
+		FBAAC99D1F90B67D00E6899E /* Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBAAC99C1F90B67D00E6899E /* Extension.swift */; };
+		FBAAC9A31F90BAD000E6899E /* NextViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBAAC9A21F90BAD000E6899E /* NextViewController.swift */; };
+		FBDA4E801F9455800087A0B7 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBDA4E7F1F9455800087A0B7 /* HomeViewController.swift */; };
+		FBDA4E841F94593F0087A0B7 /* ThiredViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBDA4E831F94593F0087A0B7 /* ThiredViewController.swift */; };
+		FBDA4E861F948C360087A0B7 /* NoPanViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBDA4E851F948C360087A0B7 /* NoPanViewController.swift */; };
+		FBDA4E8C1F94908B0087A0B7 /* BaseNavgationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBDA4E881F94908B0087A0B7 /* BaseNavgationController.swift */; };
+		FBDA4E8D1F94908B0087A0B7 /* BaseScrollView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBDA4E891F94908B0087A0B7 /* BaseScrollView.swift */; };
+		FBDA4E8E1F94908B0087A0B7 /* BaseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBDA4E8A1F94908B0087A0B7 /* BaseViewController.swift */; };
+		FBDA4E8F1F94908B0087A0B7 /* LSQNavConfiguration.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBDA4E8B1F94908B0087A0B7 /* LSQNavConfiguration.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		FBAAC9871F90B66600E6899E /* Nav.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Nav.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		FBAAC98A1F90B66600E6899E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		FBAAC98C1F90B66600E6899E /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		FBAAC98F1F90B66600E6899E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		FBAAC9911F90B66600E6899E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		FBAAC9941F90B66600E6899E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		FBAAC9961F90B66600E6899E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FBAAC99C1F90B67D00E6899E /* Extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Extension.swift; sourceTree = "<group>"; };
+		FBAAC9A21F90BAD000E6899E /* NextViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NextViewController.swift; sourceTree = "<group>"; };
+		FBDA4E7F1F9455800087A0B7 /* HomeViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
+		FBDA4E831F94593F0087A0B7 /* ThiredViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ThiredViewController.swift; sourceTree = "<group>"; };
+		FBDA4E851F948C360087A0B7 /* NoPanViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NoPanViewController.swift; sourceTree = "<group>"; };
+		FBDA4E881F94908B0087A0B7 /* BaseNavgationController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BaseNavgationController.swift; sourceTree = "<group>"; };
+		FBDA4E891F94908B0087A0B7 /* BaseScrollView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BaseScrollView.swift; sourceTree = "<group>"; };
+		FBDA4E8A1F94908B0087A0B7 /* BaseViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BaseViewController.swift; sourceTree = "<group>"; };
+		FBDA4E8B1F94908B0087A0B7 /* LSQNavConfiguration.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LSQNavConfiguration.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,14 +70,30 @@
 		FBAAC9891F90B66600E6899E /* Nav */ = {
 			isa = PBXGroup;
 			children = (
+				FBDA4E871F9490620087A0B7 /* LSQNav */,
+				FBAAC99C1F90B67D00E6899E /* Extension.swift */,
 				FBAAC98A1F90B66600E6899E /* AppDelegate.swift */,
-				FBAAC98C1F90B66600E6899E /* ViewController.swift */,
+				FBDA4E7F1F9455800087A0B7 /* HomeViewController.swift */,
+				FBAAC9A21F90BAD000E6899E /* NextViewController.swift */,
+				FBDA4E831F94593F0087A0B7 /* ThiredViewController.swift */,
+				FBDA4E851F948C360087A0B7 /* NoPanViewController.swift */,
 				FBAAC98E1F90B66600E6899E /* Main.storyboard */,
 				FBAAC9911F90B66600E6899E /* Assets.xcassets */,
 				FBAAC9931F90B66600E6899E /* LaunchScreen.storyboard */,
 				FBAAC9961F90B66600E6899E /* Info.plist */,
 			);
 			path = Nav;
+			sourceTree = "<group>";
+		};
+		FBDA4E871F9490620087A0B7 /* LSQNav */ = {
+			isa = PBXGroup;
+			children = (
+				FBDA4E881F94908B0087A0B7 /* BaseNavgationController.swift */,
+				FBDA4E891F94908B0087A0B7 /* BaseScrollView.swift */,
+				FBDA4E8A1F94908B0087A0B7 /* BaseViewController.swift */,
+				FBDA4E8B1F94908B0087A0B7 /* LSQNavConfiguration.swift */,
+			);
+			path = LSQNav;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -137,7 +169,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				FBAAC98D1F90B66600E6899E /* ViewController.swift in Sources */,
+				FBDA4E861F948C360087A0B7 /* NoPanViewController.swift in Sources */,
+				FBDA4E841F94593F0087A0B7 /* ThiredViewController.swift in Sources */,
+				FBAAC9A31F90BAD000E6899E /* NextViewController.swift in Sources */,
+				FBDA4E8F1F94908B0087A0B7 /* LSQNavConfiguration.swift in Sources */,
+				FBAAC99D1F90B67D00E6899E /* Extension.swift in Sources */,
+				FBDA4E8D1F94908B0087A0B7 /* BaseScrollView.swift in Sources */,
+				FBDA4E8E1F94908B0087A0B7 /* BaseViewController.swift in Sources */,
+				FBDA4E8C1F94908B0087A0B7 /* BaseNavgationController.swift in Sources */,
+				FBDA4E801F9455800087A0B7 /* HomeViewController.swift in Sources */,
 				FBAAC98B1F90B66600E6899E /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -265,6 +305,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = E24W7RVK7M;
 				INFOPLIST_FILE = Nav/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.rainfo.Nav;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -278,6 +319,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = E24W7RVK7M;
 				INFOPLIST_FILE = Nav/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.rainfo.Nav;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -304,6 +346,7 @@
 				FBAAC99B1F90B66600E6899E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
