@@ -1,0 +1,4 @@
+# LSQNavigation
+继承BaseNavgationController，控制器继承BaseViewController
+只需要在 LSQNavConfiguration 文件中配置
+UIScrollView添加滑动返回只需继承BaseScrollView
